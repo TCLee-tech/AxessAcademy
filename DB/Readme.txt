@@ -1,0 +1,1 @@
+Use this folder to add SQL scripts for creating tables, indexes etc.
