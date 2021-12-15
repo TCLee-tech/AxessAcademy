@@ -1,0 +1,79 @@
+JIRA
+
+https://jira.global.standardchartered.com/secure/RapidBoard.jspa?rapidView=59927&projectKey=AXACDTGA&view=planning.nodetail&quickFilter=129096&issueLimit=100
+
+1. identify project scope and break it down into task steps
+2. Tasks -> Back log
+3. Backlog -> all
+4. Iterate ??
+5. Sprints - Team size / ability / requirements => this is the output we can produce
+
+Group 1
+Alex Seow
+Julienne Chor Yen Tong
+Andrew Lee
+
+Client Server
+User Interface (UI) - Services (Rest API) / Business logic - Database
+Client UI in isolated server. HTML, Javascript render in browser
+Data from users - json (key: value pair) / xml -> display in UI
+Database in another isolated server
+Reason for isolation: Multiple instances for load balancing, serve difference regions, in case any instance goes down
+
+UI - React JS (JS Library). Browser understands. Node JS used to complie/run React JS outside browser environment.
+Services - SpringBoot (Java framework)
+Database (Postgrel SQL)
+
+DevOps - deploy to cloud so others can access
+GIT/BIT repository for codes
+Jenkins - on diff server - compile codes from ReactJS from GIT, minified -> deploy to Azure/AWS for clients to access
+SpringBoot -> Git ->Jenkins (.wav) ->cloud
+Database -> cloud deployment. Jenkins -> lot of unit test.
+Credit bureau check ideally should be an API from external party, endpoint given. Data in Json format, can consume that data.
+API from credit bureau will give data in Json format, have id:001, credit score: 800 etc. Jason data converted into Java Objects.
+Client Request/Response API. Architecture. Client ->Json -> Java -> API. API -> Java -> JSON -> Client.
+Events get registered in Kaffa server. Data analyics team fetch from Kaffa server, data streaming system, do power BI.
+
+Step 1: Wireframe, UI
+Onboarding landing screen.
+CSS design.
+Login / Password -> correct password->application screen. ?View/Review button. Wrong password?
+
+Step 2: List of services
+Define services.
+Client data entry need to go to business logic layer. Existing database check if viewer logged in (userID/password).
+Positive login returns additional info (user name etc)
+
+Step 3: What data look like.
+Define data tables, datatypes / attributes
+User Object.
+What data we storing - user id, name, email, tel, address, city, country, etc attributes.
+Container for pdf/jpeg attachments (attributes)
+
+Software
+ReactJS to develop user interface
+PostGrel database
+Jenkins
+Cloud
+
+Javascript need run-time environment to run outside browser. That is node.js.
+npmjs.com
+Can download Bootstrap from npmjs.com
+https://confluence.global.standardchartered.com/display/TechStandards/React+JS%3A+Building+Real+World+UI
+Go to 'Course Artifacts'
+download 'React Starter template"
+Save into Bank PSID folder as .npmrc file. Instructions under "Pre-requisute".
+Open VS Code from PSID folder ->'goldenversions' -> vscode-win32 -x64-1.55.2 -> Code.exe
+Then, from VS Code, open folder for node.js ("react_starter_app_template") located on desktop
+Open 'Terminal'
+Then install npm using "npm i".
+Type "npm start"
+
+Doing single page application
+Only one HTML head and body
+npm install installed libraries under node_modules of VS Code
+index.html (template) to index.js (app component, getElementById ('root') will link to index.html), to App.js (rendered)
+JS Function name must always be in capital letters
+
+Code Sandbox
+https://codesandbox.io/s/singapore-bootcamp-1cjdh?file=/src/App.js
