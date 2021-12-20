@@ -1,12 +1,14 @@
-# AxessAcademy
+<strong>Axess Academy</strong>
 
-Credit Card Origination presentation - Next Gen Onboarding System.pdf 
-==> slides for a presentation by someone from NGOS. NGOS is the platform for credit card onboarding in India.
+<p>Axess Academy is the learning academy of Standard Chartered Bank.</p>
 
-Team Presentation Slides.pptx 
-==> slides for the final presentation made to Axess Academy staff and the line managers. Axess Academy is the learning academy of Standard Chartered Bank.
+<p> I was involved in a month-long boot-camp. Project was to create a mock internal site for staff on-boarding credit card clients.</p>
 
-"Project Flow.docx" and "Some notes on JIRA.txt"
-==> Before coding, some planning was done. These are the relevant files.
+<p> The reference was the Next Generation On-boarding System (NGOS) platform for credit card onboarding in India.</p>
+<p> "Credit Card Origination presentation - Next Gen Onboarding System.pdf" was the presentation deck by someone from the NGOS team. The ideation, User Stories, were therein.</p>
 
-The rest of the files are for React(front-end), JavaMVC(back-end) and MySQL(database).
+<p> "Project Flow.docx" and "Some notes on JIRA.txt" were the products of pre-coding planning.</p>
+  
+<p> "Team Presentation Slides.pptx" was the final presentation made to Axess Academy staff and the line managers. </p>
+
+<p> The project was coded with React (front), SpringMVC (back) and MySQL (database).</p>
