@@ -11,4 +11,6 @@
   
 <p> "Team Presentation Slides.pptx" was the final presentation made to Axess Academy staff and the line managers. </p>
 
+<p>"Spring Boot.pptx", "React.pptx" and "NodeJSNPM.pptx" are slide decks.</p>
+
 <p> The project was coded with React (front), SpringMVC (back) and MySQL (database).</p>
