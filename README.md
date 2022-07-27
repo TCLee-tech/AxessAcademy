@@ -4,6 +4,8 @@
 
 <p> This repo is the product of a month-long boot-camp. Project was to create a mock internal site for staff on-boarding credit card clients.</p>
 
+<p> This is an example of a conventional monolithic 3-tier architecture.</p>
+
 <p> The reference was the Next Generation On-boarding System (NGOS) platform for credit card onboarding in India.</p>
 <p> "Credit Card Origination presentation - Next Gen Onboarding System.pdf" was the presentation deck by someone from the NGOS team. The ideation, User Stories, were therein.</p>
 <p> The software architecture is not an exact reproduction. All data are dummy.</p>
