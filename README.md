@@ -7,11 +7,11 @@
 
 <p> This is an example of a conventional monolithic 3-tier architecture. React (front), SpringMVC (back) and MySQL (database).</p>
 
+<p> The software architecture is not an exact reproduction. All data are dummy.</p>
+
 <p> The reference was the Next Generation On-boarding System (NGOS) platform for credit card onboarding in India.</p>
 
 [Credit Card Origination presentation - Next Gen Onboarding System.pdf](https://github.com/TCLee-tech/AxessAcademy/blob/7a4a435354b0f09b504c1b8b72d4ebd54e8a112c/Credit%20Card%20Origination%20presentation%20-%20Next%20Gen%20Onboarding%20System.pdf) was the presentation deck from the NGOS team. The ideation, User Stories, were therein.
-
-<p> The software architecture is not an exact reproduction. All data are dummy.</p>
 
 [Project Flow.docx](https://github.com/TCLee-tech/AxessAcademy/blob/7a4a435354b0f09b504c1b8b72d4ebd54e8a112c/Project%20Flow.docx) and [some notes on JIRA.txt](https://github.com/TCLee-tech/AxessAcademy/blob/7a4a435354b0f09b504c1b8b72d4ebd54e8a112c/Some%20notes%20on%20JIRA.txt) were the products of pre-coding planning.
   
